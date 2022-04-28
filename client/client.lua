@@ -53,7 +53,7 @@ end)
 -----------------------
 
 RegisterKeyMapping('createscene', 'Create Scene', 'keyboard', Config.CreateSceneKey)
-RegisterKeyMapping('deletescene', 'Delete Scene', 'keyboard', Config.DeleteSceneKey)
+-- RegisterKeyMapping('deletescene', 'Delete Scene', 'keyboard', Config.DeleteSceneKey)
 
 RegisterCommand('createscene', function()
     OpenMenu()
